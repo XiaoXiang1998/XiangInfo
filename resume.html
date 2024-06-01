@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳禹翔的簡歷</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 60%;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p,
+        ul {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>陳禹翔</h1>
+        <p>金門縣金城鎮賢庵里官路邊4-1號</p>
+        <p><a href="mailto:shine4329@gmail.com">shine4329@gmail.com</a> &#128241;: 0972-397909</p>
+        <p><a href="https://github.com/XiaoXiang1998">專案名稱: https://github.com/XiaoXiang1998</a></p>
+        <hr>
+        <h2>職業規劃</h2>
+        <p>在資策會，我學到了Java Web開發的基礎知識。目前，我希望能夠在這方面技術更加熟練。同時，我也樂意學習新技術，以便在未來3-5年內成為一名成熟且穩定的工程師。
+        </p>
+        <hr>
+        <h2>負責專案</h2>
+        <p>在資策會中，我們的組別開發了一個與電商相關的專案。我負責的是評論功能的開發。在這個功能中，我們實現了基本的CRUD操作。當訂單成立時，使用者可以新增評論，並將評論與訂單建立連結。這樣，對應的評論和評價可以附加到相應的商品上，使其他使用者在購買商品之前能夠參考他人的購物心得。此外，賣家也可以根據分頁查看自己商品的評論，進而回覆和管理，從而給買家提供回饋。
+        </p>
+        <p>我們專案使用的主要框架是Spring，並根據MVC架構來編寫整個系統。首先，我們從基本的Java物件開始，使用ORM框架技術來清晰地映射Java對象與資料庫之間的關係。具體來說，我們使用了Hibernate技術，這樣未來在數據遷移時也更加方便。同時，我通過JpaRepository介面的分頁功能來操作資料，這使得我們在編寫專案時能夠更輕鬆地取得所需的資料。
+        </p>
+        <p>在實現評論功能時，我通過Service層來調用JpaRepository介面，並使用@Autowired注解進行依賴注入。這樣的設計使得我的程式碼更加模組化和易於維護。</p>
+        <p>此外，我還開發了WebSocket功能，讓用戶可以透過窗口交流購物心得，促使買賣家有更好的互動，例如詢問商品是否還有庫存等問題，讓我們的專案更加生動。</p>
+        <p>在前端方面，我主要使用了JSP技術，透過EL函式庫在頁面上呈現數據。同時，我也應用了Ajax技術，使用戶在查看商品相關評論時，頁面不刷新即可加載資料。我還利用Tab欄來區分評價分佈和對應的評論資料，提升了用戶體驗。
+        </p>
+        <p>在專案實現過程中，我們使用了Github來維護整個團隊的版本控制，確保了團隊協作的高效性和代碼管理的有序性。</p>
+        <hr>
+        <h2>技能</h2>
+        <ul>
+            <li>Java</li>
+            <li>Html,css,Javascript</li>
+            <li>Spring, SpringMVC, Springboot</li>
+            <li>專案溝通</li>
+            <li>Github</li>
+            <li>Ajax</li>
+            <li>Restful API</li>
+            <li>Websocket</li>
+            <li>MS SQL</li>
+            <li>Hibernate</li>
+        </ul>
+        <hr>
+        <h2>教育程度</h2>
+        <p>JavaEEIT179 跨域Java軟體工程師就業養成班<br>資策會, Dec 2023 - May 2024</p>
+        <p>國際暨大陸事務學系<br>國立金門大學, Sep 2016 - Jan 2021</p>
+    </div>
+</body>
+
+</html>
